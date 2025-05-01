@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resume</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #b3e5fc;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    height: 100vh;
+  }
+  
+  .resume {
+    display: flex;
+    width: 600px;
+    height: 1000px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    border-radius: 8px;
+  }
+  
+  .left {
+    width: 30%;
+    background: #003b4d;
+    color: white;
+    padding: 30px 20px;
+  }
+  
+  .left img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .left h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .left p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .info, .skills, .languages, .interests {
+    margin-bottom: 15px;
+  }
+  
+  .info p, .languages p {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  
+  .bar {
+    background: #fff;
+    height: 6px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .bar-fill {
+    height: 100%;
+    background: #00bcd4;
+  }
+  
+  .right {
+    width: 70%;
+    padding: 30px;
+  }
+  
+  .right h3 {
+    margin-bottom: 10px;
+    color: #003b4d;
+  }
+  
+  .right .section {
+    margin-bottom: 20px;
+  }
+  
+  .right p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .right .job-title {
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .skill {
+    margin-bottom: 10px;
+  }
+  
+  .interest-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <div class="left">
+      <img src="images/Photo.jpg" alt="Profile Photo" />
+      <h2>Atharva Mali</h2>
+      <p>MERN DEVELOPER</p>
+
+      <div class="info">
+        <div class="section-title">CONTACT INFO</div>
+        <p>+91 9130571320</p>
+        <p>atharv1167@gmail.com</p>
+        <p>www.shportfolio.com</p>
+        <p>www.linkedin.com/artharva</p>
+        <p>Sangli, Maharashtra, India</p>
+      </div>
+
+      <div class="info">
+        <div class="section-title">EDUCATION</div>
+        <p>D Y Patil College of Engineering, Kolhapur</p>
+        <p>Second Year College Student</p>
+        <p>HSC</p>
+        <p>HRV Pune</p>
+        <p>SSC</p>
+        <p>Yashwant Highschool Karad</p>
+      </div>
+
+      <div class="languages">
+        <div class="section-title">LANGUAGES</div>
+        <p>English</p>
+        <div class="bar"><div class="bar-fill" style="width: 70%"></div></div>
+        <p>Marathi</p>
+        <div class="bar"><div class="bar-fill" style="width: 95%"></div></div>
+        <p>Hindi</p>
+        <div class="bar"><div class="bar-fill" style="width: 85%"></div></div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="section">
+        <h3>PROFILE</h3>
+        <p>I am a second-year student at D Y Patil College, pursuing a Degree in Computer Engineering. I am passionate about MERN development and continuously learning new technologies. Though I do not have professional experience yet, I actively work on personal projects to improve my skills.</p>
+      </div>
+
+      <div class="section">
+        <h3>EXPERIENCE</h3>
+        <p class="job-title">No professional experience yet</p>
+        <p>Currently focusing on academic learning and personal development through practice projects like a BMI calculator using Flutter and Firebase.</p>
+      </div>
+
+      <div class="section">
+        <h3>PROFESSIONAL SKILLS</h3>
+        <div class="skill-bar">
+          <div class="skill">
+            <p>Flutter</p>
+            <div class="bar"><div class="bar-fill" style="width: 70%"></div></div>
+          </div>
+          <div class="skill">
+            <p>Dart</p>
+            <div class="bar"><div class="bar-fill" style="width: 65%"></div></div>
+          </div>
+          <div class="skill">
+            <p>Firebase</p>
+            <div class="bar"><div class="bar-fill" style="width: 80%"></div></div>
+          </div>
+          <div class="skill">
+            <p>HTML/CSS</p>
+            <div class="bar"><div class="bar-fill" style="width: 70%"></div></div>
+          </div>
+          <div class="skill">
+            <p>UI/UX Design</p>
+            <div class="bar"><div class="bar-fill" style="width: 60%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>INTEREST</h3>
+        <div class="interest-icons">
+          <span>🏏 Cricket</span>
+          <span>💻 Coding</span>
+          <span>🎨 UI Design</span>
+          <span>Gym</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

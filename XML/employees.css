@@ -1,0 +1,25 @@
+/* Style for the employees XML */
+employees {
+    display: block;
+    font-family: "Tahoma", sans-serif;
+    background-color: #e8f5e9;
+    padding: 15px;
+}
+
+/* Style each employee */
+employee {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #2e7d32;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Style elements inside employee */
+id, name, position, department, salary {
+    display: block;
+    font-weight: bold;
+    color: #1b5e20;
+    margin: 5px 0;
+}

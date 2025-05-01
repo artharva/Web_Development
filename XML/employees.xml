@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+<employees>
+    <employee>
+        <id>5001</id>
+        <name>Michael Scott</name>
+        <position>Manager</position>
+        <department>Sales</department>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>5002</id>
+        <name>Pam Beesly</name>
+        <position>Receptionist</position>
+        <department>Administration</department>
+        <salary>45000</salary>
+    </employee>
+</employees>
